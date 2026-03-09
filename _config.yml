@@ -1,0 +1,122 @@
+# Academic Pages Configuration for Long Lan (蓝龙)
+# 蓝龙的学术主页配置文件
+
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default"
+title                    : "Long Lan (蓝龙)"
+title_separator          : "-"
+name                     : &name "Long Lan"
+description              : &description "Associate Professor at National University of Defense Technology, specializing in Computer Vision and Machine Learning"
+url                      : https://lan-long.github.io
+baseurl                  : ""
+repository               : "lan-long/lan-long.github.io"
+
+# Site Author
+author:
+  avatar           : "profile.png"
+  name             : "Long Lan (蓝龙)"
+  pronouns         : # "he/him"
+  bio              : "Associate Professor at National University of Defense Technology (NUDT). My research focuses on computer vision, machine learning, and efficient learning algorithms for real-world applications."
+  location         : "Changsha, China"
+  employer         : "National University of Defense Technology"
+  uri              : https://lan-long.github.io
+  email            : "lan19901@126.com"
+  
+  # Academic websites
+  arxiv            : "https://arxiv.org/search/?searchtype=author&query=Lan,+L"
+  googlescholar    : "https://scholar.google.com/citations?user=huVW6Y8AAAAJ"
+  dblp             : "https://dblp.org/pers/l/Lan:Long.html"
+  orcid            : # "https://orcid.org/your-orcid"
+  researchgate     : # URL
+  
+  # Social media
+  github           : "lan-long"
+  twitter          : # "@yourhandle"
+  linkedin         : # URL
+  wechat           : # QR code or ID
+  
+  # Contact
+  phone            : # "+86-xxx-xxxx-xxxx"
+  address          : "State Key Laboratory of High-Performance Computing, School of Computer, NUDT, Changsha, China"
+
+# Publication categories
+publication_types:
+  - "Journal Articles"
+  - "Conference Papers"
+  - "Preprints"
+  - "Books & Chapters"
+
+# Research interests
+interests:
+  - Visual Object Detection, Tracking and Re-identification
+  - Few-shot Learning
+  - Transfer Learning
+  - Noisy Label Learning
+  - Out-of-distribution Detection
+
+# Teaching interests (optional)
+teaching_interests:
+  - Computer Vision
+  - Machine Learning
+  - Deep Learning
+
+# News items (recent updates)
+news:
+  - date: "2026-02"
+    content: "Congrats to Zhaohui! A paper has been accepted by TPAMI."
+  - date: "2026-01"
+    content: "Congrats to Zhaohui! A paper has been accepted by TIP."
+  - date: "2025-12"
+    content: "A paper has been accepted by TPAMI."
+  - date: "2025-09"
+    content: "Congrats to Changcheng! A paper has been accepted by TCSVT."
+  - date: "2025-09"
+    content: "Two papers have been accepted by NeurIPS 2025."
+
+# Awards
+awards:
+  - year: "2025"
+    title: "中国图象图形学学会自然科学二等奖"
+    details: "Rank: 1/5"
+  - year: "2025"
+    title: "湖南省芙蓉计划青年人才"
+  - year: "2020"
+    title: "湖南省优秀博士论文奖"
+  - year: "2021"
+    title: "国防科大青年科技创新奖"
+
+# Academic service
+academic_service:
+  editorial_board:
+    - "Pattern Recognition"
+    - "Neural Networks"
+    - "The Visual Computer"
+  area_chair:
+    - "ICLR"
+    - "IJCAI"
+    - "AAAI"
+    - "BMVC"
+    - "ICME"
+
+# Navigation menu
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Group"
+    url: "/group/"
+  - title: "News"
+    url: "/news/"
+  - title: "CV"
+    url: "/files/cv.pdf"
+
+# Google Analytics (optional)
+google_analytics: # "UA-XXXXXX-X"
+
+# MathJax support
+mathjax: true
+
+# Mermaid support
+mermaid: true

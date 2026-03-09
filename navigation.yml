@@ -1,0 +1,16 @@
+# 主导航菜单
+main:
+  - title: "首页"
+    url: "/"
+    
+  - title: " Publications"
+    url: "/publications/"
+    
+  - title: "研究组"
+    url: "/group/"
+    
+  - title: "新闻动态"
+    url: "/news/"
+    
+  - title: "简历"
+    url: "/files/cv.pdf"
