@@ -1,0 +1,17 @@
+[
+  {
+    "publication_id": "two-facets-wild-ood-2026",
+    "problem": "Auxiliary data collected in the wild often contain samples that share semantics with known classes. This contamination introduces incorrect ID/OOD labels and turns the wild OOD set into a mixture of ID and OOD distributions, which can mislead conventional outlier-exposure training.",
+    "result": "We address the problem from complementary instance and distribution perspectives. We dynamically estimate more reliable ID/OOD indicators and resample the wild data using the known ID distribution to reduce interference from the latent ID subset. The resulting unified framework is supported by theoretical analysis and extensive evaluation across multiple wild OOD settings."
+  },
+  {
+    "publication_id": "continuous-review-noisy-labels-2025",
+    "problem": "Deep networks tend to learn clean samples first and gradually memorize incorrect labels. Early stopping alone cannot continuously prevent the accumulation of erroneous knowledge or recover useful information damaged by label noise.",
+    "result": "We introduce self-not-true distillation (SNTD), in which a model from an earlier training stage guides the current model while the true-class logit is masked, allowing non-true-class knowledge to support continuous review and timely correction. SNTD+ further selects teachers by class and dynamically adjusts the distillation weight for greater robustness under complex label noise."
+  },
+  {
+    "publication_id": "relational-knowledge-clustering-2025",
+    "problem": "Most multi-view clustering methods focus on concrete objects such as images and pay limited attention to abstract objects such as relational knowledge. Learning only basic consensus features can also overlook important sample-to-global correlations encoded in structural knowledge.",
+    "result": "We construct eight multi-view relational-knowledge datasets and propose RK-MVC. The framework captures coarse- and fine-grained sample-to-global correlations and fuses them with basic consensus features. Evaluation with nine representative backbones across seven aspects demonstrates broad compatibility and practical potential."
+  }
+]

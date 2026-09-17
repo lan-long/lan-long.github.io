@@ -1,0 +1,321 @@
+[
+  {
+    "id": "two-facets-wild-ood-2026",
+    "title": "On the Two Facets to Conquer Wild Out-of-distribution Detection",
+    "authors": "Zhaohui Hu, Qizhou Wang, Xinwang Liu, Long Lan*, Bo Han",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026",
+    "year": 2026,
+    "kind": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TPAMI.2026.3667806"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "continuous-review-noisy-labels-2025",
+    "title": "Continuous Review and Timely Correction: Enhancing the Resistance to Noisy Labels via Self-Not-True and Class-Wise Distillation",
+    "authors": "Long Lan, Jingyi Wang, Xinghao Wu, Bo Han, Xinwang Liu",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025",
+    "year": 2025,
+    "kind": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3649111"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "relational-knowledge-clustering-2025",
+    "title": "From Concrete to Abstract: Multi-view Clustering on Relational Knowledge",
+    "authors": "Ke Liang, Lingyuan Meng, Hao Li, Jun Wang, Long Lan*, Miaomiao Li, Xinwang Liu, Huaimin Wang",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025",
+    "year": 2025,
+    "kind": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3582689"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "wildvideo-2025",
+    "title": "WildVideo: Benchmarking LMMs for Understanding Video-Language Interaction",
+    "authors": "Songyuan Yang, Weijiang Yu, Wenjing Yang, Xinwang Liu, Huibin Tan, and Long Lan*, Nong Xiao",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025",
+    "year": 2025,
+    "kind": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3592831"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "nt-fan-2025",
+    "title": "NT-FAN: A Simple yet Effective Noise-tolerant Few-shot Adaptation Network",
+    "authors": "Wenjing Yang, Haoang Chi, Yibin Zhan, Bowen Hu, Xiaoguang Ren, Dapeng Tao, Long Lan*",
+    "venue": "Artificial Intelligence (AIJ), 2025",
+    "year": 2025,
+    "kind": "journal",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0004370225000827"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.artint.2025.104363"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "c-woe-2025",
+    "title": "C-WOE: Clustering for Out-of-Distribution Detection Learning with Wild Outlier Exposure",
+    "authors": "Long Lan, Zhaohui Hu, He Li, Tongliang Liu, Xinwang Liu",
+    "venue": "IEEE Transactions on Image Processing (TIP), 2026",
+    "year": 2026,
+    "kind": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TIP.2026.3662593"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "mv-trellis-2026",
+    "title": "MV-TRELLIS: Point Cloud Guidance for In-the-wild 3D Vehicle Generation from Autonomous Driving Scene",
+    "authors": "Hongli Xiao, Youjian Zhang, Yucai Bai, Yaohui Jin, Chaoyue Wang, Xiaoguang Ren, Wenjing Yang, Long Lan",
+    "venue": "ICRA 2026",
+    "year": 2026,
+    "kind": "conference",
+    "links": [],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "satellite-masked-image-modeling-2025",
+    "title": "Harnessing Massive Satellite Imagery with Efficient Masked Image Modeling",
+    "authors": "Fengxiang Wang, Hongzhen Wang, Di Wang, Zonghao Guo, Zhenyu Zhong, Long Lan, Wenjing Yang, Jing Zhang",
+    "venue": "ICCV 2025",
+    "year": 2025,
+    "kind": "conference",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://www.openaccess.thecvf.com/content/ICCV2025/papers/Wang_Harnessing_Massive_Satellite_Imagery_with_Efficient_Masked_Image_Modeling_ICCV_2025_paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.00652"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "mambatrack-source-group-2025",
+    "title": "Mambatrack: a simple baseline for multiple object tracking with state space model",
+    "authors": "Changcheng Xiao, Qiong Cao, Zhigng Luo, Long Lan",
+    "venue": "ACM Multimedia (MM), 2024",
+    "year": 2024,
+    "kind": "conference",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2408.09178"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1145/3664647.3680944"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "parameter-additive-decomposition-2024",
+    "title": "Tackling Noisy Labels with Network Parameter Additive Decomposition",
+    "authors": "Jingyi Wang, Xiaobo Xia, Long Lan*, Xinghao Wu, Jun Yu, Wenjing Yang, Bo Han, Tongliang Liu",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024",
+    "year": 2024,
+    "kind": "journal",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2403.13241"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TPAMI.2024.3382138"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "novel-class-discovery-confusion-2024",
+    "title": "Does Confusion really Hurt Novel Class Discovery?",
+    "authors": "Haoang Chi, Wenjing Yang, Feng Liu, Long Lan*, Tao Qin, Bo Han",
+    "venue": "International Journal of Computer Vision (IJCV), 2024",
+    "year": 2024,
+    "kind": "journal",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://link.springer.com/article/10.1007/s11263-024-02012-y"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1007/s11263-024-02012-y"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "efficient-prompt-tuning-ship-2024",
+    "title": "Efficient prompt tuning of large vision-language model for fine-grained ship classification",
+    "authors": "Long Lan, Fengxiang Wang, Xiangtao Zheng, Zengmao Wang, Xinwang Liu",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2024",
+    "year": 2024,
+    "kind": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TGRS.2024.3509721"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "visible-infrared-gradual-matching-2024",
+    "title": "Enhancing unsupervised visible-infrared person re-identification with bidirectional-consistency gradual matching",
+    "authors": "Xiao Teng, Xinyu Shen, Kele Xu, Long Lan",
+    "venue": "ACM MM 2024",
+    "year": 2024,
+    "kind": "conference",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://openreview.net/pdf?id=GZuDmQvJ1f"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1145/3664647.3680938"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "universal-label-noise-reid-2024",
+    "title": "Relieving universal label noise for unsupervised visible-infrared person re-identification by inferring from neighbors",
+    "authors": "Xiao Teng, Long Lan, Dingyao Chen, Kele Xu, Nan Yin",
+    "venue": "AAAI 2025",
+    "year": 2025,
+    "kind": "conference",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/32791/34946"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1609/aaai.v39i7.32791"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "scaling-few-shot-open-world-2024",
+    "title": "Scaling Few-Shot Learning for the Open World",
+    "authors": "Zhipeng Lin, Wenjing Yang, Haotian Wang, Haoang Chi, Long Lan, Ji Wang",
+    "venue": "AAAI 2024",
+    "year": 2024,
+    "kind": "conference",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/29291/30434"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1609/aaai.v38i12.29291"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "learning-better-visual-prompts-2024",
+    "title": "Learning to Learn Better Visual Prompts",
+    "authors": "Fengxiang Wang, Wanrong Huang, Shaowu Yang, Fan Qi, and Long Lan",
+    "venue": "AAAI 2024",
+    "year": 2024,
+    "kind": "conference",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/28343/28674"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1609/aaai.v38i6.28343"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  }
+]

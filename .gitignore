@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.DS_Store
+dist/
+output/
+.venv/
+*.log
+
+# Local documentation and maintenance helpers; do not publish.
+README.md
+DESIGN.md
+SOURCES.md
+填写指南.md
+start-preview.ps1
+
+# Local collection forms and research notes are not website source files.
+资料收集/
+原主页资料提取.json
+原主页资料提取.md
+论文检索与研究页配图记录.md

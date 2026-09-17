@@ -1,0 +1,42 @@
+{
+  "name": "Long Lan",
+  "sample": false,
+  "role": "Associate Professor",
+  "affiliation": "College of Computer Science and Technology, National University of Defense Technology (NUDT)",
+  "secondary_role": "State Key Laboratory of High-Performance Computing (HPCL)",
+  "email": "lan19901@126.com",
+  "office": "State Key Laboratory of High-Performance Computing, School of Computer, NUDT, Changsha, China",
+  "photo": "assets/profile.jpg",
+  "source": "self",
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=huVW6Y8AAAAJ"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/lan-long"
+    },
+    {
+      "label": "DBLP",
+      "url": "https://dblp.org/pers/l/Lan:Long.html"
+    },
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/search/?searchtype=author&query=Lan,+L"
+    },
+    {
+      "label": "NUDT",
+      "url": "https://www.nudt.edu.cn/"
+    }
+  ],
+  "cv": null,
+  "research_statement": "My research focuses on designing efficient learning algorithms for real-world computer vision tasks.",
+  "highlight_names": [
+    "Long Lan"
+  ],
+  "news_limit": 6,
+  "sidebar_topics": "Computer Vision · Machine Learning",
+  "group_name": "",
+  "recruitment_status": "We welcome motivated students and researchers who share our interests in computer vision and machine learning."
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Chuan Li",
+    "image": "assets/students/li-chuan.png",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Chuan Li</h3><p>Position: Ph.D. Student</p><p>Research Interests: Knowledge Distillation; Spatial Multi-omics Integration</p><p>Since: 2018.09</p><p>Supervision: Primary Advisor</p>"
+  },
+  {
+    "name": "Hongli Xiao",
+    "image": "assets/students/xiao-hongli.jpeg",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Hongli Xiao</h3><p>Position: Ph.D. Student</p><p>Research Interests: 3D Object Generation</p><p>Since: 2022.09</p><p>Supervision: Primary Advisor</p>"
+  },
+  {
+    "name": "Wenjie Zhu",
+    "image": "assets/students/wenjie-zhu.jpeg",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Wenjie Zhu</h3><p>Position: Ph.D. Student</p><p>Research Interests: Computer Vision</p><p>Since: 2022.09</p><p>Supervision: Co-advised</p>"
+  },
+  {
+    "name": "Fengxiang Wang",
+    "image": "assets/students/wang-fengxiang.png",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Fengxiang Wang</h3><p>Position: Ph.D. Student</p><p>Research Interests: Multimodal Large Models; Remote Sensing</p><p>Since: 2023.02</p><p>Supervision: Primary Advisor</p>"
+  },
+  {
+    "name": "Dingyao Chen",
+    "image": "assets/students/chen-dingyao.png",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Dingyao Chen</h3><p>Position: Ph.D. Student</p><p>Research Interests: Knowledge Distillation</p><p>Since: 2023.03</p><p>Supervision: Primary Advisor</p>"
+  },
+  {
+    "name": "Shuzhen Liu",
+    "image": "assets/students/liu-shuzhen.png",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Shuzhen Liu</h3><p>Position: Ph.D. Student</p><p>Research Interests: 3D Generation</p><p>Since: 2023.09</p><p>Supervision: Primary Advisor</p>"
+  },
+  {
+    "name": "Fangda Chen",
+    "image": "assets/students/chen-fangda.png",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Fangda Chen</h3><p>Position: Ph.D. Student</p><p>Research Interests: Video Generation</p><p>Since: 2024.02</p><p>Supervision: Co-advised</p>"
+  },
+  {
+    "name": "Zhaohui Hu",
+    "image": "assets/students/hu-zhaohui.png",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Zhaohui Hu</h3><p>Position: Ph.D. Student</p><p>Research Interests: Continual Learning</p><p>Since: 2024.03</p><p>Supervision: Co-advised</p>"
+  },
+  {
+    "name": "Qun Yang",
+    "image": "assets/students/yang-qun.jpg",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Qun Yang</h3><p>Position: Ph.D. Student</p><p>Research Interests: Continual Learning; Model Merging; Multi-task Learning; Transfer Learning</p><p>Since: 2024.09</p><p>Supervision: Co-advised</p>"
+  },
+  {
+    "name": "Weida Chen",
+    "image": "assets/students/chen-weida.png",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Weida Chen</h3><p>Position: Ph.D. Student</p><p>Research Interests: Embodied AI; Vision-and-Language Navigation</p><p>Since: 2025.02</p><p>Supervision: Primary Advisor</p>"
+  },
+  {
+    "name": "Yuxin Zhang",
+    "image": "assets/students/zhang-yuxin.jpg",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Yuxin Zhang</h3><p>Position: Ph.D. Student</p><p>Research Interests: Model Inversion Attacks</p><p>Since: 2025.03</p><p>Supervision: Co-advised</p>"
+  },
+  {
+    "name": "Jiandong Wang",
+    "image": "assets/students/wang-jiandong.jpg",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Jiandong Wang</h3><p>Position: Ph.D. Student</p><p>Research Interests: Artificial Intelligence</p><p>Since: 2025.03</p><p>Supervision: Co-advised</p>"
+  },
+  {
+    "name": "Yonglin Li",
+    "image": "assets/students/li-yonglin.jpg",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Yonglin Li</h3><p>Position: Ph.D. Student</p><p>Research Interests: Efficient Generative Modeling</p><p>Since: 2026.02</p><p>Supervision: Primary Advisor</p>"
+  },
+  {
+    "name": "Kaiyan Wen",
+    "image": "assets/students/wen-kaiyan.jpeg",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Kaiyan Wen</h3><p>Position: Ph.D. Student</p><p>Research Interests: Multi-agent Systems; Agent Safety; Graph RAG</p><p>Since: 2026.09</p><p>Supervision: Co-advised</p>"
+  },
+  {
+    "name": "Mingshuo Chen",
+    "image": "assets/students/chen-mingshuo.jpg",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Mingshuo Chen</h3><p>Position: Ph.D. Student</p><p>Research Interests: Multimodal Large Models for Remote Sensing; Multimodal Evaluation</p><p>Since: 2026.09</p><p>Supervision: Primary Advisor</p>"
+  },
+  {
+    "name": "Zhuo Li",
+    "image": "assets/students/li-zhuo.png",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Zhuo Li</h3><p>Position: Master's Student</p><p>Research Interests: 3D Reconstruction and Generation</p><p>Since: 2023.09</p><p>Supervision: Co-advised</p>"
+  },
+  {
+    "name": "Yueying Li",
+    "image": "assets/students/li-yueying.jpg",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Yueying Li</h3><p>Position: Master's Student</p><p>Research Interests: Multimodal Large Models for Remote Sensing</p><p>Since: 2024.09</p><p>Supervision: Co-advised</p>"
+  },
+  {
+    "name": "Mengying Zhao",
+    "image": "assets/students/zhao-mengying.jpg",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Mengying Zhao</h3><p>Position: Master's Student</p><p>Research Interests: Unsupervised Domain Adaptation; Data Generation</p><p>Since: 2024.09</p><p>Supervision: Primary Advisor</p>"
+  },
+  {
+    "name": "Zixuan Ye",
+    "image": "assets/students/ye-zixuan.jpg",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Zixuan Ye</h3><p>Position: Master's Student</p><p>Research Interests: Object Tracking</p><p>Since: 2025.09</p><p>Supervision: Primary Advisor</p>"
+  },
+  {
+    "name": "Yingqi Peng",
+    "image": "assets/students/peng-yingqi.png",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Yingqi Peng</h3><p>Position: Master's Student</p><p>Research Interests: Multimodal Detection; Embodied AI</p><p>Since: 2025.09</p><p>Supervision: Primary Advisor</p>"
+  },
+  {
+    "name": "Shijia Li",
+    "image": "assets/students/li-shijia.png",
+    "source": "self",
+    "group": "Current Students",
+    "html": "<h3>Shijia Li</h3><p>Position: Master's Student</p><p>Research Interests: Vision-Language-Action Models; Cross-view Geo-localization</p><p>Since: 2025.09</p><p>Supervision: Primary Advisor</p>"
+  }
+]
