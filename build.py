@@ -119,7 +119,7 @@ def group_page():
 
 def awards_page():
     body=head('Awards','Awards & honors','Selected awards and honors.')
-    sections=[('personal','Academic & community honors')]
+    sections=[('personal','Academic & community honors'),('editorial','Editorial service'),('service','Conference service')]
     body+=jump(sections)
     for kind,label in sections:
         body+=f'<section class="section" id="{kind}"><h2>{label}</h2><ul class="award-list">'

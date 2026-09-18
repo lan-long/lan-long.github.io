@@ -26,5 +26,33 @@
     "source": "self",
     "placeholder": false,
     "html": "<p><strong>2020</strong> · Hunan Provincial Outstanding Doctoral Dissertation Award</p>"
+  },
+  {
+    "year": null,
+    "kind": "editorial",
+    "source": "self",
+    "placeholder": false,
+    "html": "<p>Associate Editor, <em>Pattern Recognition</em></p>"
+  },
+  {
+    "year": null,
+    "kind": "editorial",
+    "source": "self",
+    "placeholder": false,
+    "html": "<p>Associate Editor, <em>Neural Networks</em></p>"
+  },
+  {
+    "year": null,
+    "kind": "editorial",
+    "source": "self",
+    "placeholder": false,
+    "html": "<p>Associate Editor, <em>The Visual Computer</em></p>"
+  },
+  {
+    "year": null,
+    "kind": "service",
+    "source": "self",
+    "placeholder": false,
+    "html": "<p>Area Chair, ICLR, NeurIPS, AAAI, IJCAI, BMVC, ICME</p>"
   }
 ]
