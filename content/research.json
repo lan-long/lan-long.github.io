@@ -1,42 +1,204 @@
 [
   {
-    "id": "visual-object-understanding",
-    "title": "Visual Object Detection, Tracking and Re-identification",
+    "id": "visual-perception",
+    "title": "Visual Perception of Non-Cooperative Targets",
+    "summary": "Target discovery, localization, and tracking in complex real-world environments.",
     "source": "self",
-    "image": "assets/research/mambatrack-figure1.png",
-    "image_alt": "Overview of MambaTrack for motion prediction, tracklet patching, and multi-object tracking",
-    "image_caption": "MambaTrack, Figure 1",
-    "image_source": "https://arxiv.org/abs/2408.09178",
-    "html": "<p>We study visual object perception in complex real-world environments, with the goal of maintaining reliable localization and association across video frames despite occlusion, nonlinear motion, missed detections, and cross-modal observations.</p><h3>Core Problems</h3><p>Many multi-object trackers rely on the linear-motion assumption of the Kalman filter and can produce incorrect associations in dynamic scenes such as sports and dance. Occlusion and missed detections may also terminate trajectories prematurely. Visible-infrared person re-identification introduces additional challenges, including cross-modal discrepancies, limited identity annotations, and noisy pseudo-labels.</p><h3>General Research Approach</h3><p>We improve visual perception from three complementary perspectives: temporal information, cross-modal information, and data reliability. Our work seeks to capture changes across consecutive observations, establish stable associations across frames and modalities, and reduce the effects of occlusion, missed detections, and unreliable supervision.</p><h3>Research Topics</h3><ul><li>Multi-object tracking and data association in complex motion scenarios</li><li>Motion prediction and tracklet recovery under occlusion and missed detections</li><li>Unsupervised visible-infrared person re-identification</li><li>Robust representation learning with pseudo-label and universal label noise</li></ul><h3>Representative Publications</h3><ul class=\"research-publications\"><li><a href=\"publications.html#mambatrack-source-group-2025\">MambaTrack: A Simple Baseline for Multiple Object Tracking with State Space Model</a></li><li><a href=\"publications.html#visible-infrared-gradual-matching-2024\">Enhancing Unsupervised Visible-Infrared Person Re-identification with Bidirectional-Consistency Gradual Matching</a></li><li><a href=\"publications.html#universal-label-noise-reid-2024\">Relieving Universal Label Noise for Unsupervised Visible-Infrared Person Re-identification by Inferring from Neighbors</a></li></ul>"
+    "topics": [
+      {
+        "id": "wide-area-discovery",
+        "title": "Wide-Area Target Discovery (Remote Sensing Detection and Cross-Platform Matching)",
+        "papers": [
+          {
+            "title": "RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing",
+            "url": "https://arxiv.org/abs/2503.10392"
+          },
+          {
+            "title": "MODAL: Multi-Modal Object Re-ID via Model-Driven Sparse Decoupling and Text-Image Differential Filtering",
+            "url": "https://arxiv.org/abs/2608.15096"
+          }
+        ]
+      },
+      {
+        "id": "gnss-denied-localization",
+        "title": "Target Navigation and Localization in GNSS-Denied Environments",
+        "context": "Related foundation: inertial heading estimation without relying on GNSS.",
+        "papers": [
+          {
+            "title": "Deep Heading Estimation for Pedestrian Dead Reckoning",
+            "url": "https://doi.org/10.1088/1742-6596/1656/1/012009"
+          }
+        ]
+      },
+      {
+        "id": "long-term-tracking",
+        "title": "Long-Term Target Tracking under Occlusion",
+        "papers": [
+          {
+            "title": "MambaTrack: A Simple Baseline for Multiple Object Tracking with State Space Model",
+            "url": "https://arxiv.org/abs/2408.09178"
+          },
+          {
+            "title": "Enhancing Online UAV Multi-Object Tracking with Temporal Context and Spatial Topological Relationships",
+            "url": "https://www.mdpi.com/2504-446X/7/6/389"
+          },
+          {
+            "title": "Wave-wise Discriminative Tracking by Phase-Amplitude Separation, Augmentation and Mixture",
+            "url": "https://www.ijcai.org/proceedings/2025/215"
+          }
+        ]
+      },
+      {
+        "id": "sparse-view-reconstruction",
+        "title": "Sparse-View Target Reconstruction",
+        "papers": [
+          {
+            "title": "3DCarGen: Scalable 3D Car Generation via 3D-consistent Multi-view Synthesis",
+            "url": "https://arxiv.org/abs/2606.24257"
+          },
+          {
+            "title": "MM-TRELLIS: Point-Cloud Guided Multi-Modal 3D Vehicle Generation in Autonomous Driving",
+            "url": "https://arxiv.org/abs/2606.24301"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": "few-shot-transfer-learning",
-    "title": "Few-shot Learning & Transfer Learning",
+    "id": "open-world-learning",
+    "title": "Machine Learning in Open Environments",
+    "summary": "Foundational learning methods that support reliable visual perception in open environments.",
     "source": "self",
-    "image": "assets/research/scaling-few-shot-figure3.png",
-    "image_alt": "SHA-Pipeline for open-world few-shot learning through normalization, hierarchical clustering, and structured representation learning",
-    "image_caption": "Scaling Few-Shot Learning for the Open World, Figure 3",
-    "image_source": "https://ojs.aaai.org/index.php/AAAI/article/view/29291",
-    "html": "<p>We study how learning systems can acquire new visual concepts from very limited supervision and transfer existing knowledge to larger, more open, and application-oriented tasks.</p><h3>Core Problems</h3><p>Conventional few-shot learning is usually evaluated on a small number of novel classes, whereas an open-world system may encounter hundreds or thousands of new categories at once. This scale increases training cost and reduces classification accuracy. Few-shot examples may also contain label noise, and adapting large vision-language models to specialized domains should avoid expensive full-parameter fine-tuning.</p><h3>General Research Approach</h3><p>We advance few-shot learning through task scale, sample reliability, and adaptation efficiency. Our research uses prior knowledge and class structure to improve recognition of novel classes, controls computation in large open-world settings, and strengthens adaptation to limited noisy labels and domain shifts.</p><h3>Research Topics</h3><ul><li>Open-world few-shot learning with many novel classes</li><li>Noise-tolerant few-shot adaptation</li><li>Visual prompt learning and meta-learning</li><li>Parameter-efficient adaptation of vision-language models</li></ul><h3>Representative Publications</h3><ul class=\"research-publications\"><li><a href=\"publications.html#scaling-few-shot-open-world-2024\">Scaling Few-Shot Learning for the Open World</a></li><li><a href=\"publications.html#nt-fan-2025\">NT-FAN: A Simple yet Effective Noise-tolerant Few-shot Adaptation Network</a></li><li><a href=\"publications.html#learning-better-visual-prompts-2024\">Learning to Learn Better Visual Prompts</a></li><li><a href=\"publications.html#efficient-prompt-tuning-ship-2024\">Efficient Prompt Tuning of Large Vision-Language Model for Fine-Grained Ship Classification</a></li></ul>"
+    "topics": [
+      {
+        "id": "ood-detection",
+        "title": "Out-of-Distribution Detection",
+        "papers": [
+          {
+            "title": "On the Two Facets to Conquer Wild Out-of-Distribution Detection",
+            "url": "https://doi.org/10.1109/TPAMI.2026.3667806"
+          },
+          {
+            "title": "C-WOE: Clustering for Out-of-Distribution Detection Learning with Wild Outlier Exposure",
+            "url": "https://doi.org/10.1109/TIP.2026.3662593"
+          }
+        ]
+      },
+      {
+        "id": "continual-learning",
+        "title": "Continual Learning",
+        "papers": [
+          {
+            "title": "Merge to Remember: Sharpness-Aware Isotropic Merging for Continual Learning",
+            "url": "https://openreview.net/forum?id=aWfk16EvfM"
+          }
+        ]
+      },
+      {
+        "id": "few-shot-learning",
+        "title": "Few-Shot Learning",
+        "papers": [
+          {
+            "title": "Scaling Few-Shot Learning for the Open World",
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29291"
+          },
+          {
+            "title": "Diversifying Cross-Domain Few-Shot Learning via Multimodal Image Editing",
+            "url": "https://cmsworkshops.com/ICASSP2024/view_paper.php?PaperNum=8873"
+          }
+        ]
+      },
+      {
+        "id": "adversarial-learning",
+        "title": "Adversarial Learning",
+        "papers": [
+          {
+            "title": "Bilateral Dependency Optimization: Defending Against Model-Inversion Attacks",
+            "url": "https://arxiv.org/abs/2206.05483"
+          },
+          {
+            "title": "InterBN: Channel Fusion for Adversarial Unsupervised Domain Adaptation",
+            "url": "https://doi.org/10.1145/3474085.3475481"
+          }
+        ]
+      },
+      {
+        "id": "noisy-label-learning",
+        "title": "Learning with Noisy Labels",
+        "papers": [
+          {
+            "title": "Continuous Review and Timely Correction: Enhancing the Resistance to Noisy Labels via Self-Not-True and Class-Wise Distillation",
+            "url": "https://doi.org/10.1109/TPAMI.2025.3649111"
+          },
+          {
+            "title": "Tackling Noisy Labels with Network Parameter Additive Decomposition",
+            "url": "https://doi.org/10.1109/TPAMI.2024.3382138"
+          }
+        ]
+      },
+      {
+        "id": "reinforcement-learning",
+        "title": "Reinforcement Learning",
+        "papers": [
+          {
+            "title": "GeoEyes: On-Demand Visual Focusing for Evidence-Grounded Understanding of Ultra-High-Resolution Remote Sensing Imagery",
+            "url": "https://arxiv.org/abs/2602.14201"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": "noisy-label-learning",
-    "title": "Noisy Label Learning",
+    "id": "edge-embodied-intelligence",
+    "title": "Edge and Embodied Intelligence",
+    "summary": "Efficient models and active perception as enabling technologies for visual tasks.",
     "source": "self",
-    "image": "assets/research/tnlpad-figure3.png",
-    "image_alt": "Parameter-space illustration of separating clean-sample learning from noisy-label memorization at different training stages",
-    "image_caption": "Tackling Noisy Labels with Network Parameter Additive Decomposition, Figure 3",
-    "image_source": "https://arxiv.org/abs/2403.13241",
-    "html": "<p>We study robust learning under unreliable supervision, with the goal of preserving knowledge from clean samples while identifying and reducing the influence of incorrect labels throughout training.</p><h3>Core Problems</h3><p>Over-parameterized neural networks often learn clean samples first and gradually memorize incorrect labels. Early stopping can only truncate training; it cannot continuously prevent erroneous knowledge from accumulating or recover information damaged by noisy labels. Learning dynamics and sensitivity to noise can also vary substantially across classes.</p><h3>General Research Approach</h3><p>We view noisy-label learning as a competition between reliable knowledge and erroneous supervision. Our research continually identifies, preserves, and reinforces trustworthy information while limiting the accumulation of noise. We also account for differences across classes, training stages, and application settings to develop robust methods with stable transfer performance.</p><h3>Research Topics</h3><ul><li>Continuous review and timely correction through self-distillation</li><li>Class-wise teacher selection and dynamic distillation</li><li>Parameter decomposition and isolation of noisy supervision</li><li>Label noise in few-shot learning and cross-modal re-identification</li></ul><h3>Representative Publications</h3><ul class=\"research-publications\"><li><a href=\"publications.html#continuous-review-noisy-labels-2025\">Continuous Review and Timely Correction: Enhancing the Resistance to Noisy Labels via Self-Not-True and Class-Wise Distillation</a></li><li><a href=\"publications.html#parameter-additive-decomposition-2024\">Tackling Noisy Labels with Network Parameter Additive Decomposition</a></li><li><a href=\"publications.html#nt-fan-2025\">NT-FAN: A Simple yet Effective Noise-tolerant Few-shot Adaptation Network</a></li><li><a href=\"publications.html#universal-label-noise-reid-2024\">Relieving Universal Label Noise for Unsupervised Visible-Infrared Person Re-identification by Inferring from Neighbors</a></li></ul>"
-  },
-  {
-    "id": "out-of-distribution-detection",
-    "title": "Out-of-distribution Detection",
-    "source": "self",
-    "image": "assets/research/ncd-external-error-figure1c.png",
-    "image_alt": "Example of external confusion between known and novel classes under unreliable sampling",
-    "image_caption": "Does Confusion Really Hurt Novel Class Discovery?, Figure 1(c)",
-    "image_source": "https://link.springer.com/article/10.1007/s11263-024-02012-y",
-    "html": "<p>We study reliable recognition of unknown samples in open environments, with particular attention to the risks created by contaminated outlier-exposure data.</p><h3>Core Problems</h3><p>Outlier exposure often assumes that every auxiliary sample is OOD. In practice, wild auxiliary data frequently contain samples from known classes. This contamination introduces incorrect ID/OOD indicators at the instance level and creates a mixture of ID and OOD distributions, providing conflicting supervision to the model.</p><h3>General Research Approach</h3><p>We treat real-world auxiliary data as a mixture with unknown composition and uneven quality. Our research considers both the reliability of individual samples and shifts in the overall distribution, extracts useful evidence for separating known and unknown data, and reduces the adverse effects of contaminated supervision.</p><h3>Research Topics</h3><ul><li>Wild outlier exposure and auxiliary-data contamination</li><li>Instance-level ID/OOD estimation and correction</li><li>Distribution-level resampling, clustering, and dynamic weighting</li><li>Internal and external confusion in novel class discovery</li></ul><h3>Representative Publications</h3><ul class=\"research-publications\"><li><a href=\"publications.html#two-facets-wild-ood-2026\">On the Two Facets to Conquer Wild Out-of-distribution Detection</a></li><li><a href=\"publications.html#c-woe-2025\">C-WOE: Clustering for Out-of-Distribution Detection Learning with Wild Outlier Exposure</a></li><li><a href=\"publications.html#novel-class-discovery-confusion-2024\">Does Confusion Really Hurt Novel Class Discovery?</a></li><li><a href=\"publications.html#scaling-few-shot-open-world-2024\">Scaling Few-Shot Learning for the Open World</a></li></ul>"
+    "topics": [
+      {
+        "id": "knowledge-distillation",
+        "title": "Model Compression through Knowledge Distillation",
+        "papers": [
+          {
+            "title": "Distilling Structural Knowledge from CNNs to Vision Transformers for Data-Efficient Visual Recognition",
+            "url": "https://doi.org/10.1016/j.neunet.2026.108601"
+          },
+          {
+            "title": "Logit Distillation via Student Diversity",
+            "url": "https://doi.org/10.1007/978-981-99-1642-9_29"
+          }
+        ]
+      },
+      {
+        "id": "edge-generation",
+        "title": "On-Device Generative Models",
+        "papers": [
+          {
+            "title": "JuZhou 1.0 Technical Report: The First Edge-Native Text-to-Image Foundation Model Trained Entirely on China-Developed AI Accelerators",
+            "url": "https://arxiv.org/abs/2606.28421"
+          }
+        ]
+      },
+      {
+        "id": "agent-active-perception",
+        "title": "Agent-Based Active Perception",
+        "papers": [
+          {
+            "title": "GeoEyes: On-Demand Visual Focusing for Evidence-Grounded Understanding of Ultra-High-Resolution Remote Sensing Imagery",
+            "url": "https://arxiv.org/abs/2602.14201"
+          }
+        ]
+      },
+      {
+        "id": "world-model-behavior",
+        "title": "Behavior Prediction and Self-Verification with World Models",
+        "context": "Related foundation: inferring goals and predicting future actions in multi-agent settings.",
+        "papers": [
+          {
+            "title": "Multi-Agent Online Coordination via Bayesian Inverse Planning",
+            "url": "https://doi.org/10.1088/1742-6596/1684/1/012069"
+          }
+        ]
+      }
+    ]
   }
 ]

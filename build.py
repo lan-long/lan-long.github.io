@@ -36,7 +36,9 @@ def section(title,body,link=None):
     more=f'<a href="{link[0]}">{link[1]} →</a>' if link else ''
     return f'<section class="section"><div class="section-heading"><h2>{title}</h2>{more}</div>{body}</section>'
 def head(eyebrow,title,description): return f'<p class="eyebrow">{eyebrow}</p><h1>{title}</h1><p class="page-intro">{description}</p>'
-def jump(entries):return '<nav class="jump-nav" aria-label="On this page">'+''.join(f'<a href="#{esc(id)}">{esc(label)}</a>' for id,label in entries)+'</nav>'
+def jump(entries, extra_class=''):
+    classes='jump-nav'+(' '+extra_class if extra_class else '')
+    return f'<nav class="{classes}" aria-label="On this page">'+''.join(f'<a href="#{esc(id)}">{esc(label)}</a>' for id,label in entries)+'</nav>'
 def news_rows(items):
     result='<ul class="news-list">'
     for n in items:
@@ -64,18 +66,22 @@ def home():
     return body
 
 def research_page():
-    body=head('Research','Research directions','Our research addresses visual perception and reliable learning in open, real-world environments. Each direction below introduces its core problems, general approach, research topics, and representative publications.')
-    body+=jump([(t['id'],t['title']) for t in research])
-    for t in research:
-        illustration=''
-        if t.get('image'):
-            caption=esc(t.get('image_caption',''))
-            source=esc(t.get('image_source',''))
-            caption_html=f'<a href="{source}" target="_blank" rel="noopener">{caption}</a>' if source else caption
-            illustration=(f'<figure class="research-figure">'
-                          f'<img class="research-image" src="{esc(t["image"])}" alt="{esc(t.get("image_alt",t["title"]))}">'
-                          f'<figcaption>Source: {caption_html}</figcaption></figure>')
-        body+=f'<section class="research-topic" id="{t["id"]}"><h2>{esc(t["title"])}</h2>{source_label([t["source"]])}{illustration}<div class="research-copy">{t["html"]}</div></section>'
+    body=head('Research','Research directions','Visual perception of non-cooperative targets is our central task. Open-environment learning and edge intelligence provide supporting methods. Each direction lists selected publications and related foundational work.')
+    body+=jump([(t['id'],t['title']) for t in research], 'research-jump-nav')
+    for direction_number,t in enumerate(research,1):
+        body+=f'<section class="research-topic" id="{esc(t["id"])}"><h2>{esc(t["title"])}</h2>'
+        if t.get('summary'):
+            body+=f'<p class="research-summary">{esc(t["summary"])}</p>'
+        body+='<div class="research-subtopics">'
+        for topic_number,topic in enumerate(t['topics'],1):
+            body+=f'<article class="research-subtopic" id="{esc(topic["id"])}"><h3><span>{direction_number}.{topic_number}</span>{esc(topic["title"])}</h3>'
+            if topic.get('context'):
+                body+=f'<p class="research-context">{esc(topic["context"])}</p>'
+            body+='<ul class="research-paper-list">'
+            for paper in topic['papers']:
+                body+=f'<li><a href="{esc(paper["url"])}" target="_blank" rel="noopener noreferrer">{esc(paper["title"])} ↗</a></li>'
+            body+='</ul></article>'
+        body+='</div></section>'
     return body
 
 def publications_page():
