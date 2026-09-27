@@ -66,7 +66,7 @@ def home():
     return body
 
 def research_page():
-    body=head('Research','Research directions','Visual perception of non-cooperative targets is our central task. Open-environment learning and edge intelligence provide supporting methods. Each direction lists selected publications and related foundational work.')
+    body=head('Research','Research directions','Visual perception of non-cooperative targets is our central task. Open-environment learning and on-device embodied intelligence provide supporting methods. Each direction lists selected publications and related foundational work.')
     body+=jump([(t['id'],t['title']) for t in research], 'research-jump-nav')
     for direction_number,t in enumerate(research,1):
         body+=f'<section class="research-topic" id="{esc(t["id"])}"><h2>{esc(t["title"])}</h2>'
@@ -74,13 +74,19 @@ def research_page():
             body+=f'<p class="research-summary">{esc(t["summary"])}</p>'
         body+='<div class="research-subtopics">'
         for topic_number,topic in enumerate(t['topics'],1):
-            body+=f'<article class="research-subtopic" id="{esc(topic["id"])}"><h3><span>{direction_number}.{topic_number}</span>{esc(topic["title"])}</h3>'
+            topic_class='research-subtopic has-figure' if topic.get('figure') else 'research-subtopic'
+            body+=f'<article class="{topic_class}" id="{esc(topic["id"])}"><h3><span>{direction_number}.{topic_number}</span>{esc(topic["title"])}</h3>'
             if topic.get('context'):
                 body+=f'<p class="research-context">{esc(topic["context"])}</p>'
-            body+='<ul class="research-paper-list">'
-            for paper in topic['papers']:
-                body+=f'<li><a href="{esc(paper["url"])}" target="_blank" rel="noopener noreferrer">{esc(paper["title"])} ↗</a></li>'
-            body+='</ul></article>'
+            if topic['papers']:
+                body+='<ul class="research-paper-list">'
+                for paper in topic['papers']:
+                    body+=f'<li><a href="{esc(paper["url"])}" target="_blank" rel="noopener noreferrer">{esc(paper["title"])} ↗</a></li>'
+                body+='</ul>'
+            if topic.get('figure'):
+                figure=topic['figure']
+                body+=f'<figure class="topic-figure"><a href="{esc(figure["url"])}" target="_blank" rel="noopener noreferrer"><img src="{esc(figure["src"])}" alt="{esc(figure["alt"])}" loading="lazy"></a><figcaption><span>{esc(figure["caption"])}</span><a href="{esc(figure["url"])}" target="_blank" rel="noopener noreferrer">{esc(figure["credit"])} ↗</a></figcaption></figure>'
+            body+='</article>'
         body+='</div></section>'
     return body
 

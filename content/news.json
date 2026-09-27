@@ -1,11 +1,19 @@
 [
-  {"year": 2026, "month": 2, "source": "self", "placeholder": false, "html": "<p>Congrats to Zhaohui! A paper has been accepted by <strong>TPAMI</strong>.</p>"},
-  {"year": 2026, "month": 1, "source": "self", "placeholder": false, "html": "<p>Congrats to Zhaohui! A paper has been accepted by <strong>TIP</strong>.</p>"},
-  {"year": 2025, "month": 12, "source": "self", "placeholder": false, "html": "<p>A paper has been accepted by <strong>TPAMI</strong>.</p>"},
-  {"year": 2025, "month": 9, "source": "self", "placeholder": false, "html": "<p>Congrats to Changcheng! A paper has been accepted by <strong>TCSVT</strong>.</p>"},
-  {"year": 2025, "month": 9, "source": "self", "placeholder": false, "html": "<p>Two papers have been accepted by <strong>NeurIPS 2025</strong>.</p>"},
-  {"year": 2025, "month": 8, "source": "self", "placeholder": false, "html": "<p>Congrats to Li Hao! A paper has been accepted by <strong>TCSVT</strong>.</p>"},
-  {"year": 2025, "month": 7, "source": "self", "placeholder": false, "html": "<p>Congrats to Songyuan! A paper has been accepted by <strong>TPAMI</strong>.</p>"},
-  {"year": 2025, "month": 6, "source": "self", "placeholder": false, "html": "<p>Congrats to Fengxiang! A paper has been accepted by <strong>ICCV 2025</strong>.</p>"},
-  {"year": 2025, "month": 6, "source": "self", "placeholder": false, "html": "<p>Congrats to Keliang! A paper has been accepted by <strong>TPAMI</strong>.</p>"}
+  {"year": 2026, "month": 9, "source": "self", "placeholder": false, "html": "<p><em>GeoG2U-Bench: When Does Generation Help Understanding in Ultra-High-Resolution Remote Sensing?</em> has been accepted to <strong>NeurIPS 2026</strong> as a <strong>Spotlight</strong>. <em>FreeSpec: Training-Free Long Video Generation via Singular-Spectrum Reconstruction</em> has also been accepted to <strong>NeurIPS 2026</strong>.</p>"},
+  {"year": 2026, "month": 9, "source": "self", "placeholder": false, "html": "<p>Two papers are forthcoming in <strong>Neural Networks</strong>: <em>HiFiVe: High-Fidelity Vehicle Generation Leveraging Auto-Regressive 2D Generative Priors</em> and <em>Revealing and Overcoming Fairness Confusion in Out-of-Distribution Detection</em>.</p>"},
+  {"year": 2026, "month": 8, "source": "self", "placeholder": false, "html": "<p>Our transformer tracking paper <em>Enhanced Semantic Alignment in Transformer Tracking via Position Learning and Force-Directed Attention</em> is forthcoming in <strong>TPAMI</strong>.</p>"},
+  {"year": 2026, "month": 6, "source": "self", "placeholder": false, "html": "<p>Three new works on edge-native generation and 3D vehicle generation are available: <em>JuZhou 1.0</em>, <em>3DCarGen</em>, and <em>MM-TRELLIS</em>.</p>"},
+  {"year": 2026, "month": 5, "source": "self", "placeholder": false, "html": "<p>Three papers appeared at <strong>ICASSP 2026</strong>: <em>Deconfusion CLIP</em>, <em>DepthShield</em>, and <em>Boosting Knowledge Distillation via Local Categories Similarity Scaling</em>.</p>"},
+  {"year": 2026, "month": 4, "source": "self", "placeholder": false, "html": "<p>A new preprint on efficient ultra-high-resolution remote-sensing understanding is available: <em>Semantic-Geometric Dual Compression</em>.</p>"},
+  {"year": 2026, "month": 2, "source": "self", "placeholder": false, "html": "<p>A new preprint on agent-based active perception is available: <em>GeoEyes</em>.</p>"},
+  {"year": 2026, "month": 2, "source": "self", "placeholder": false, "html": "<p><em>On the Two Facets to Conquer Wild Out-of-Distribution Detection</em> has been accepted by <strong>TPAMI</strong>.</p>"},
+  {"year": 2026, "month": 1, "source": "self", "placeholder": false, "html": "<p><em>C-WOE: Clustering for Out-of-Distribution Detection Learning With Wild Outlier Exposure</em> has been accepted by <strong>TIP</strong>.</p>"},
+  {"year": 2025, "month": 12, "source": "self", "placeholder": false, "html": "<p><em>Continuous Review and Timely Correction: Enhancing the Resistance to Noisy Labels via Self-Not-True and Class-Wise Distillation</em> has been accepted by <strong>TPAMI</strong>.</p>"},
+  {"year": 2025, "month": 9, "source": "self", "placeholder": false, "html": "<p><em>Temporal-Enhanced Multimodal Transformer for Referring Multi-Object Tracking and Segmentation</em> has been accepted by <strong>TCSVT</strong>.</p>"},
+  {"year": 2025, "month": 9, "source": "self", "placeholder": false, "html": "<p><em>RoMA</em> and <em>GeoLLaVA-8K</em> have been accepted by <strong>NeurIPS 2025</strong>.</p>"},
+  {"year": 2025, "month": 8, "source": "self", "placeholder": false, "html": "<p>Our work with Li Hao has been accepted by <strong>TCSVT</strong>.</p>"},
+  {"year": 2025, "month": 7, "source": "self", "placeholder": false, "html": "<p>Our work with Songyuan has been accepted by <strong>TPAMI</strong>.</p>"},
+  {"year": 2025, "month": 6, "source": "self", "placeholder": false, "html": "<p><em>Harnessing Massive Satellite Imagery with Efficient Masked Image Modeling</em> has been accepted by <strong>ICCV 2025</strong>.</p>"},
+  {"year": 2025, "month": 6, "source": "self", "placeholder": false, "html": "<p><em>XLRS-Bench</em> has been accepted by <strong>CVPR 2025</strong>.</p>"},
+  {"year": 2025, "month": 6, "source": "self", "placeholder": false, "html": "<p>Our work with Keliang has been accepted by <strong>TPAMI</strong>.</p>"}
 ]

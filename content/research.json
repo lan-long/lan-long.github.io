@@ -9,58 +9,51 @@
         "id": "wide-area-discovery",
         "title": "Wide-Area Target Discovery (Remote Sensing Detection and Cross-Platform Matching)",
         "papers": [
-          {
-            "title": "RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing",
-            "url": "https://arxiv.org/abs/2503.10392"
-          },
-          {
-            "title": "MODAL: Multi-Modal Object Re-ID via Model-Driven Sparse Decoupling and Text-Image Differential Filtering",
-            "url": "https://arxiv.org/abs/2608.15096"
-          }
-        ]
-      },
-      {
-        "id": "gnss-denied-localization",
-        "title": "Target Navigation and Localization in GNSS-Denied Environments",
-        "context": "Related foundation: inertial heading estimation without relying on GNSS.",
-        "papers": [
-          {
-            "title": "Deep Heading Estimation for Pedestrian Dead Reckoning",
-            "url": "https://doi.org/10.1088/1742-6596/1656/1/012009"
-          }
-        ]
+          {"title": "XLRS-Bench: Could Your Multimodal LLMs Understand Extremely Large Ultra-High-Resolution Remote Sensing Imagery?", "url": "https://doi.org/10.1109/CVPR52734.2025.01336"},
+          {"title": "Harnessing Massive Satellite Imagery with Efficient Masked Image Modeling", "url": "https://doi.org/10.1109/ICCV51701.2025.00652"},
+          {"title": "RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing", "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/065c00e902f3f0117d1a4da0a9b0e497-Abstract-Conference.html"},
+          {"title": "GeoLLaVA-8K: Scaling Remote-Sensing Multimodal Large Language Models to 8K Resolution", "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e95ef5c6ed4096c609e0b8b47ffaeb9b-Abstract-Conference.html"}
+        ],
+        "figure": {
+          "src": "assets/research/xlrs-bench-figure3.png",
+          "alt": "The XLRS-Bench hierarchy of remote-sensing perception and reasoning capabilities and subtasks.",
+          "caption": "XLRS-Bench evaluates multimodal models across perception, reasoning, and sixteen fine-grained remote-sensing subtasks.",
+          "credit": "Figure 3 from Wang et al., XLRS-Bench, CVPR 2025. Cropped from the official open-access paper; Long Lan is a coauthor.",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_XLRS-Bench_Could_Your_Multimodal_LLMs_Understand_Extremely_Large_Ultra-High-Resolution_Remote_CVPR_2025_paper.html"
+        }
       },
       {
         "id": "long-term-tracking",
         "title": "Long-Term Target Tracking under Occlusion",
         "papers": [
-          {
-            "title": "MambaTrack: A Simple Baseline for Multiple Object Tracking with State Space Model",
-            "url": "https://arxiv.org/abs/2408.09178"
-          },
-          {
-            "title": "Enhancing Online UAV Multi-Object Tracking with Temporal Context and Spatial Topological Relationships",
-            "url": "https://www.mdpi.com/2504-446X/7/6/389"
-          },
-          {
-            "title": "Wave-wise Discriminative Tracking by Phase-Amplitude Separation, Augmentation and Mixture",
-            "url": "https://www.ijcai.org/proceedings/2025/215"
-          }
-        ]
+          {"title": "Enhanced Semantic Alignment in Transformer Tracking via Position Learning and Force-Directed Attention", "url": "https://doi.org/10.1109/TPAMI.2026.3726080"},
+          {"title": "Temporal-Enhanced Multimodal Transformer for Referring Multi-Object Tracking and Segmentation", "url": "https://doi.org/10.1109/TCSVT.2025.3615851"},
+          {"title": "Wave-wise Discriminative Tracking by Phase-Amplitude Separation, Augmentation and Mixture", "url": "https://doi.org/10.24963/ijcai.2025/215"},
+          {"title": "MambaTrack: A Simple Baseline for Multiple Object Tracking with State Space Model", "url": "https://arxiv.org/abs/2408.09178"}
+        ],
+        "figure": {
+          "src": "assets/research/uav-tracking-figure2.png",
+          "alt": "Overview of a UAV multi-object tracking pipeline with temporal feature aggregation, detection, re-identification, and association.",
+          "caption": "UAV multi-object tracking with temporal feature aggregation and topology-integrated embeddings.",
+          "credit": "Figure 2 from Xiao et al., Drones 7(6), 389 (2023), CC BY 4.0. Resized; Long Lan is a coauthor.",
+          "url": "https://www.mdpi.com/2504-446X/7/6/389"
+        }
       },
       {
         "id": "sparse-view-reconstruction",
         "title": "Sparse-View Target Reconstruction",
         "papers": [
-          {
-            "title": "3DCarGen: Scalable 3D Car Generation via 3D-consistent Multi-view Synthesis",
-            "url": "https://arxiv.org/abs/2606.24257"
-          },
-          {
-            "title": "MM-TRELLIS: Point-Cloud Guided Multi-Modal 3D Vehicle Generation in Autonomous Driving",
-            "url": "https://arxiv.org/abs/2606.24301"
-          }
-        ]
+          {"title": "HiFiVe: High-Fidelity Vehicle Generation Leveraging Auto-Regressive 2D Generative Priors", "url": "https://doi.org/10.1016/j.neunet.2026.109534"},
+          {"title": "3DCarGen: Scalable 3D Car Generation via 3D-Consistent Multi-View Synthesis", "url": "https://arxiv.org/abs/2606.24257"},
+          {"title": "MM-TRELLIS: Point-Cloud Guided Multi-Modal 3D Vehicle Generation in Autonomous Driving", "url": "https://arxiv.org/abs/2606.24301"}
+        ],
+        "figure": {
+          "src": "assets/research/3dcargen-figure2.png",
+          "alt": "The 3DCarGen pipeline for multi-view vehicle synthesis and 3D reconstruction.",
+          "caption": "3DCarGen combines 3D-consistent multi-view generation with fast geometry and texture reconstruction.",
+          "credit": "Figure 2 from Xiao et al., 3DCarGen, arXiv:2606.24257 (2026); Long Lan is a coauthor.",
+          "url": "https://arxiv.org/abs/2606.24257"
+        }
       }
     ]
   },
@@ -74,77 +67,95 @@
         "id": "ood-detection",
         "title": "Out-of-Distribution Detection",
         "papers": [
-          {
-            "title": "On the Two Facets to Conquer Wild Out-of-Distribution Detection",
-            "url": "https://doi.org/10.1109/TPAMI.2026.3667806"
-          },
-          {
-            "title": "C-WOE: Clustering for Out-of-Distribution Detection Learning with Wild Outlier Exposure",
-            "url": "https://doi.org/10.1109/TIP.2026.3662593"
-          }
-        ]
+          {"title": "On the Two Facets to Conquer Wild Out-of-Distribution Detection", "url": "https://doi.org/10.1109/TPAMI.2026.3667806"},
+          {"title": "C-WOE: Clustering for Out-of-Distribution Detection Learning With Wild Outlier Exposure", "url": "https://doi.org/10.1109/TIP.2026.3662593"},
+          {"title": "Deconfusion CLIP Towards Robust Out-of-Distribution Detection", "url": "https://doi.org/10.1109/ICASSP55912.2026.11464459"},
+          {"title": "Revealing and Overcoming Fairness Confusion in Out-of-Distribution Detection", "url": "https://doi.org/10.1016/j.neunet.2026.109564"}
+        ],
+        "figure": {
+          "src": "assets/research/fair-ood-figure1.jpg",
+          "alt": "Examples of fair, biased, and fairness-confused out-of-distribution detection.",
+          "caption": "Fairness confusion can cause sensitive attributes and feature shifts to distort out-of-distribution decisions.",
+          "credit": "Figure 1 from Hu et al., Neural Networks 205, 109564 (2027; online 2026); Long Lan is a coauthor.",
+          "url": "https://doi.org/10.1016/j.neunet.2026.109564"
+        }
       },
       {
         "id": "continual-learning",
         "title": "Continual Learning",
         "papers": [
-          {
-            "title": "Merge to Remember: Sharpness-Aware Isotropic Merging for Continual Learning",
-            "url": "https://openreview.net/forum?id=aWfk16EvfM"
-          }
-        ]
+          {"title": "Merge to Remember: Sharpness-Aware Isotropic Merging for Continual Learning", "url": "https://openreview.net/forum?id=aWfk16EvfM"}
+        ],
+        "figure": {
+          "src": "assets/research/saim-method-poster.png",
+          "alt": "SAIM combines sharpness-aware block-coordinate optimization with adaptive isotropic model merging.",
+          "caption": "SAIM reduces forgetting through sharpness-aware updates and adaptive isotropic merging across continual tasks.",
+          "credit": "Method panel from the official ICML 2026 poster for Yang et al., Merge to Remember; Long Lan is a coauthor. Cropped.",
+          "url": "https://openreview.net/forum?id=aWfk16EvfM"
+        }
       },
       {
         "id": "few-shot-learning",
         "title": "Few-Shot Learning",
         "papers": [
-          {
-            "title": "Scaling Few-Shot Learning for the Open World",
-            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29291"
-          },
-          {
-            "title": "Diversifying Cross-Domain Few-Shot Learning via Multimodal Image Editing",
-            "url": "https://cmsworkshops.com/ICASSP2024/view_paper.php?PaperNum=8873"
-          }
-        ]
+          {"title": "NT-FAN: A Simple Yet Effective Noise-Tolerant Few-Shot Adaptation Network", "url": "https://doi.org/10.1016/j.artint.2025.104363"},
+          {"title": "Scaling Few-Shot Learning for the Open World", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29291"},
+          {"title": "Diversifying Cross-Domain Few-Shot Learning via Multimodal Image Editing", "url": "https://cmsworkshops.com/ICASSP2024/view_paper.php?PaperNum=8873"}
+        ],
+        "figure": {
+          "src": "assets/research/few-shot-figure3.png",
+          "alt": "The SHA-Pipeline for few-shot learning, including normalization, hierarchy clustering, and structured representation learning.",
+          "caption": "The SHA-Pipeline captures and uses class hierarchy in large-scale few-shot learning.",
+          "credit": "Figure 3 from Lin et al., Applied Sciences 14(16), 7060 (2024), CC BY 4.0. Resized; Long Lan is a coauthor.",
+          "url": "https://www.mdpi.com/2076-3417/14/16/7060"
+        }
       },
       {
         "id": "adversarial-learning",
         "title": "Adversarial Learning",
         "papers": [
-          {
-            "title": "Bilateral Dependency Optimization: Defending Against Model-Inversion Attacks",
-            "url": "https://arxiv.org/abs/2206.05483"
-          },
-          {
-            "title": "InterBN: Channel Fusion for Adversarial Unsupervised Domain Adaptation",
-            "url": "https://doi.org/10.1145/3474085.3475481"
-          }
-        ]
+          {"title": "Unknown-Aware Bilateral Dependency Optimization for Defending Against Model Inversion Attacks", "url": "https://doi.org/10.1109/TPAMI.2025.3558267"},
+          {"title": "Bilateral Dependency Optimization: Defending Against Model-Inversion Attacks", "url": "https://arxiv.org/abs/2206.05483"},
+          {"title": "InterBN: Channel Fusion for Adversarial Unsupervised Domain Adaptation", "url": "https://doi.org/10.1145/3474085.3475481"}
+        ],
+        "figure": {
+          "src": "assets/research/bido-plus-figure3.png",
+          "alt": "Comparison of MID, bilateral dependency optimization, and unknown-aware BiDO-plus frameworks.",
+          "caption": "BiDO and BiDO+ defend against model inversion by controlling dependencies while preserving classification utility.",
+          "credit": "Figure 3 from Peng et al., TPAMI 47(8), 6382–6395 (2025); Long Lan is a coauthor. Cropped.",
+          "url": "https://doi.org/10.1109/TPAMI.2025.3558267"
+        }
       },
       {
         "id": "noisy-label-learning",
         "title": "Learning with Noisy Labels",
         "papers": [
-          {
-            "title": "Continuous Review and Timely Correction: Enhancing the Resistance to Noisy Labels via Self-Not-True and Class-Wise Distillation",
-            "url": "https://doi.org/10.1109/TPAMI.2025.3649111"
-          },
-          {
-            "title": "Tackling Noisy Labels with Network Parameter Additive Decomposition",
-            "url": "https://doi.org/10.1109/TPAMI.2024.3382138"
-          }
-        ]
+          {"title": "Continuous Review and Timely Correction: Enhancing the Resistance to Noisy Labels via Self-Not-True and Class-Wise Distillation", "url": "https://doi.org/10.1109/TPAMI.2025.3649111"},
+          {"title": "Tackling Noisy Labels with Network Parameter Additive Decomposition", "url": "https://doi.org/10.1109/TPAMI.2024.3382138"},
+          {"title": "Relieving Universal Label Noise for Unsupervised Visible-Infrared Person Re-Identification by Inferring from Neighbors", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32791"}
+        ],
+        "figure": {
+          "src": "assets/research/tnlpad-figure3.png",
+          "alt": "Parameter-space trajectories for additive decomposition during learning with noisy labels.",
+          "caption": "TNLPAD separates parameters associated with clean and mislabeled samples over the course of training.",
+          "credit": "Figure 3 from Wang et al., TPAMI 46(9), 6341–6354 (2024); Long Lan is a coauthor.",
+          "url": "https://doi.org/10.1109/TPAMI.2024.3382138"
+        }
       },
       {
         "id": "reinforcement-learning",
         "title": "Reinforcement Learning",
         "papers": [
-          {
-            "title": "GeoEyes: On-Demand Visual Focusing for Evidence-Grounded Understanding of Ultra-High-Resolution Remote Sensing Imagery",
-            "url": "https://arxiv.org/abs/2602.14201"
-          }
-        ]
+          {"title": "Meta Actor-Critic Framework for Multi-Agent Reinforcement Learning", "url": "https://doi.org/10.1145/3488933.3489029"},
+          {"title": "Attention-Based Fault-Tolerant Approach for Multi-Agent Reinforcement Learning Systems", "url": "https://doi.org/10.3390/e23091133"}
+        ],
+        "figure": {
+          "src": "assets/research/fault-tolerant-marl-figure2.png",
+          "alt": "Fault-tolerant multi-agent reinforcement learning architecture with encoders, multi-head attention, message aggregation, and Q-networks.",
+          "caption": "Multi-head attention filters shared observations for fault-tolerant multi-agent reinforcement learning.",
+          "credit": "Figure 2 from Gu, Geng, and Lan, Entropy 23(9), 1133 (2021), CC BY 4.0. Resized; Long Lan is a coauthor.",
+          "url": "https://www.mdpi.com/1099-4300/23/9/1133"
+        }
       }
     ]
   },
@@ -158,46 +169,62 @@
         "id": "knowledge-distillation",
         "title": "Model Compression through Knowledge Distillation",
         "papers": [
-          {
-            "title": "Distilling Structural Knowledge from CNNs to Vision Transformers for Data-Efficient Visual Recognition",
-            "url": "https://doi.org/10.1016/j.neunet.2026.108601"
-          },
-          {
-            "title": "Logit Distillation via Student Diversity",
-            "url": "https://doi.org/10.1007/978-981-99-1642-9_29"
-          }
-        ]
+          {"title": "Distilling Structural Knowledge from CNNs to Vision Transformers for Data-Efficient Visual Recognition", "url": "https://doi.org/10.1016/j.neunet.2026.108601"},
+          {"title": "Boosting Knowledge Distillation via Local Categories Similarity Scaling", "url": "https://doi.org/10.1109/ICASSP55912.2026.11462632"},
+          {"title": "Exploring Direction Alignment and Discrepancy Standardization for Knowledge Distillation", "url": "https://doi.org/10.1145/3803543"},
+          {"title": "Semantic-Geometric Dual Compression: Training-Free Visual Token Reduction for Ultra-High-Resolution Remote Sensing Understanding", "url": "https://arxiv.org/abs/2604.11122"}
+        ],
+        "figure": {
+          "src": "assets/research/ntce-kd-figure2.png",
+          "alt": "Knowledge-distillation framework that enhances the magnitude and diversity of non-target classes.",
+          "caption": "Knowledge distillation through complementary magnitude and diversity enhancement.",
+          "credit": "Figure 2 from Li et al., Sensors 24(11), 3617 (2024), CC BY 4.0. Resized; Long Lan is a coauthor.",
+          "url": "https://www.mdpi.com/1424-8220/24/11/3617"
+        }
       },
       {
         "id": "edge-generation",
         "title": "On-Device Generative Models",
         "papers": [
-          {
-            "title": "JuZhou 1.0 Technical Report: The First Edge-Native Text-to-Image Foundation Model Trained Entirely on China-Developed AI Accelerators",
-            "url": "https://arxiv.org/abs/2606.28421"
-          }
-        ]
+          {"title": "JuZhou 1.0 Technical Report: The First Edge-Native Text-to-Image Foundation Model Trained Entirely on China-Developed AI Accelerators", "url": "https://arxiv.org/abs/2606.28421"}
+        ],
+        "figure": {
+          "src": "assets/research/juzhou-figure4.png",
+          "alt": "The JuZhou 1.0 on-device Chinese text-to-image generation framework.",
+          "caption": "JuZhou 1.0 combines Chinese prompt refinement, compact denoising, distillation, and a lightweight decoder for on-device generation.",
+          "credit": "Figure 4 from Chen et al., JuZhou 1.0, arXiv:2606.28421 (2026); Long Lan is a coauthor.",
+          "url": "https://arxiv.org/abs/2606.28421"
+        }
       },
       {
         "id": "agent-active-perception",
         "title": "Agent-Based Active Perception",
         "papers": [
-          {
-            "title": "GeoEyes: On-Demand Visual Focusing for Evidence-Grounded Understanding of Ultra-High-Resolution Remote Sensing Imagery",
-            "url": "https://arxiv.org/abs/2602.14201"
-          }
-        ]
+          {"title": "GeoEyes: On-Demand Visual Focusing for Evidence-Grounded Understanding of Ultra-High-Resolution Remote Sensing Imagery", "url": "https://arxiv.org/abs/2602.14201"}
+        ],
+        "figure": {
+          "src": "assets/research/geoeyes-figure2.png",
+          "alt": "GeoEyes comparison with standard chain-of-thought and fixed-pattern visual zooming methods.",
+          "caption": "GeoEyes learns task-adaptive, coarse-to-fine visual exploration for evidence-grounded remote-sensing reasoning.",
+          "credit": "Figure 2 from Wang et al., GeoEyes, arXiv:2602.14201 (2026); Long Lan is a coauthor.",
+          "url": "https://arxiv.org/abs/2602.14201"
+        }
       },
       {
         "id": "world-model-behavior",
         "title": "Behavior Prediction and Self-Verification with World Models",
-        "context": "Related foundation: inferring goals and predicting future actions in multi-agent settings.",
+        "context": "Related foundations for sequential prediction and goal inference in multi-agent settings.",
         "papers": [
-          {
-            "title": "Multi-Agent Online Coordination via Bayesian Inverse Planning",
-            "url": "https://doi.org/10.1088/1742-6596/1684/1/012069"
-          }
-        ]
+          {"title": "Effective and Efficient Time-Varying Counterfactual Prediction with State-Space Models", "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/26f16a11f4dbba3eef876b571d9f3200-Abstract-Conference.html"},
+          {"title": "Multi-Agent Online Coordination via Bayesian Inverse Planning", "url": "https://doi.org/10.1088/1742-6596/1684/1/012069"}
+        ],
+        "figure": {
+          "src": "assets/research/counterfactual-mamba-figure3.png",
+          "alt": "Mamba-CDSP framework for time-varying counterfactual prediction from historical observations.",
+          "caption": "Mamba-CDSP models sequential observations and debiases state-space representations for counterfactual prediction.",
+          "credit": "Figure 3 from Wang et al., ICLR 2025; Long Lan is a coauthor. Cropped from the author-hosted paper.",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/26f16a11f4dbba3eef876b571d9f3200-Abstract-Conference.html"
+        }
       }
     ]
   }
