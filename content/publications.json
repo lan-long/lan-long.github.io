@@ -1,5 +1,49 @@
 [
   {
+    "id": "geog2u-bench-2026",
+    "title": "GeoG2U-Bench: When Does Generation Help Understanding in Ultra-High-Resolution Remote Sensing?",
+    "authors": "Fengxiang Wang, Yueying Li, Mingshuo Chen, Boya Miao, Qiuyang Yu, Yajie Yang, Mingzhen Xu, Luqing Luo, Haonan Guo, Hongda Sun, Yulin Wang, Jun Song, Jing Zhang, Long Lan, Wenjing Yang",
+    "venue": "NeurIPS 2026 (Spotlight)",
+    "year": 2026,
+    "kind": "conference",
+    "links": [
+      {
+        "label": "NeurIPS",
+        "url": "https://neurips.cc/virtual/2026/poster/139820"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
+    "id": "freespec-2026",
+    "title": "FreeSpec: Training-Free Long Video Generation via Singular-Spectrum Reconstruction",
+    "authors": "Fangda Chen, Shanshan Zhao, Longrong Yang, Chuanfu Xu, Zhigang Luo, Long Lan",
+    "venue": "NeurIPS 2026",
+    "year": 2026,
+    "kind": "conference",
+    "links": [
+      {
+        "label": "NeurIPS",
+        "url": "https://neurips.cc/virtual/2026/poster/149836"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2605.06509"
+      },
+      {
+        "label": "Project",
+        "url": "https://fdchen24.github.io/FreeSpec-Website/"
+      }
+    ],
+    "sources": [
+      "self"
+    ],
+    "placeholder": false
+  },
+  {
     "id": "two-facets-wild-ood-2026",
     "title": "On the Two Facets to Conquer Wild Out-of-distribution Detection",
     "authors": "Zhaohui Hu, Qizhou Wang, Xinwang Liu, Long Lan*, Bo Han",
